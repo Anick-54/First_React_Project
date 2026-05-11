@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <>
     <Container>
-    <nav className='mt-10'>
+    <nav className='mt-10 bg-[#F5F7FA]'>
         <div className='flex justify-between items-center'>
             <div>
                 <img src={logo} alt="" />
