@@ -1,6 +1,8 @@
 import './App.css'
 import { Banner } from './Components/Banner'
 import { Card2 } from './Components/Card2'
+import { Demo } from './Components/Demo'
+import { Footer } from './Components/Footer'
 import { Helping } from './Components/Helping'
 import { HowTo } from './Components/HowTo'
 import { NavBar } from './Components/NavBar'
@@ -23,6 +25,8 @@ function App() {
       <HowTo/>
       <Tim/>
       <Card2/>
+      <Demo/>
+      <Footer/>
     </>
   )
 }
