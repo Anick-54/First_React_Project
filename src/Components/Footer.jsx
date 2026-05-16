@@ -4,6 +4,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaRegFutbol } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
+import { LuSend } from "react-icons/lu";
+
 
 
 
@@ -44,9 +46,11 @@ export const Footer = () => {
                         <p className="!text-white">Privacy policy</p>
                         <p className="!text-white">Status</p>
                     </div>
-                    <div>
+                    <div className="relative">
                         <h3 className="!text-white font-bold">Stay up to date</h3>
-                        <div className="border-1 bg-gray-300 text-black rounded-[8px] mt-6 "><input type="email" name="Your Email" id="" className="text-black"/></div>
+                        <input type="text" className="bg-gray-500 rounded-[8px] w-[255px] text-white h-10 px-5 mt-6" placeholder="Enter Your Email" />
+                        <LuSend className="absolute top-15 right-[11px] text-white w-[18px] h-[18px]" />
+
                     </div>
 
 
